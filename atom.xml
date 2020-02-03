@@ -2,18 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zjmcooler.github.io/</id>
     <title>ZjiM</title>
-    <updated>2019-12-06T03:18:12.999Z</updated>
+    <updated>2020-02-03T08:09:07.844Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zjmcooler.github.io/"/>
-    <link rel="self" href="https://zjmcooler.github.io//atom.xml"/>
+    <link rel="self" href="https://zjmcooler.github.io/atom.xml"/>
     <subtitle>Day Day Up</subtitle>
-    <logo>https://zjmcooler.github.io//images/avatar.png</logo>
-    <icon>https://zjmcooler.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, ZjiM</rights>
+    <logo>https://zjmcooler.github.io/images/avatar.png</logo>
+    <icon>https://zjmcooler.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, ZjiM</rights>
+    <entry>
+        <title type="html"><![CDATA[Voxel-FPN论文笔记]]></title>
+        <id>https://zjmcooler.github.io/post/voxel-fpn-lun-wen-bi-ji</id>
+        <link href="https://zjmcooler.github.io/post/voxel-fpn-lun-wen-bi-ji">
+        </link>
+        <updated>2020-02-03T07:59:14.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>Voxel-FPN: multi-scale voxel feature aggregation in 3D object detection from point clouds</p>
+</blockquote>
+<h2 id="introduction">Introduction</h2>
+<p>Voxel-FPN方法来自海康威视，是一种基于LiDAR原始数据的one-stage 3D目标检测算法。其核心框架是一个encoder网路和一个对应的decoder网络，后面再接RPN网络。encoder部分负责自上而下地提取多尺度的voxel信息，而decoder部分负责自下而上的融合多尺度特征图。</p>
+<h2 id="overall-architecture">Overall Architecture</h2>
+<p>算法框架主要包括三个模块：voxel feature extraction, multi-scale feature aggregation and a region proposal network with feature pyramid structure (noted as RPN-FPN)。<br>
+<img src="https://zjmcooler.github.io//post-images/1580717283171.png" alt="Voxel-FPN framework" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AlignDet论文笔记]]></title>
+        <id>https://zjmcooler.github.io/post/aligndet-lun-wen-bi-ji</id>
+        <link href="https://zjmcooler.github.io/post/aligndet-lun-wen-bi-ji">
+        </link>
+        <updated>2020-01-09T02:05:08.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="motivation">Motivation</h2>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[双目视觉基本原理]]></title>
-        <id>https://zjmcooler.github.io//post/shuang-mu-shi-jue-ji-ben-yuan-li</id>
-        <link href="https://zjmcooler.github.io//post/shuang-mu-shi-jue-ji-ben-yuan-li">
+        <id>https://zjmcooler.github.io/post/shuang-mu-shi-jue-ji-ben-yuan-li</id>
+        <link href="https://zjmcooler.github.io/post/shuang-mu-shi-jue-ji-ben-yuan-li">
         </link>
         <updated>2019-12-06T03:14:51.000Z</updated>
         <content type="html"><![CDATA[<h2 id="单目相机成像">单目相机成像</h2>
