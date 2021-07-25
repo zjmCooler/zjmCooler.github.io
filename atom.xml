@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zjmCooler.github.io</id>
+    <id>https://zjmcooler.github.io</id>
     <title>ZjiM</title>
-    <updated>2021-07-25T11:46:09.919Z</updated>
+    <updated>2021-07-25T11:51:26.343Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zjmCooler.github.io"/>
-    <link rel="self" href="https://zjmCooler.github.io/atom.xml"/>
+    <link rel="alternate" href="https://zjmcooler.github.io"/>
+    <link rel="self" href="https://zjmcooler.github.io/atom.xml"/>
     <subtitle>Hello World</subtitle>
-    <logo>https://zjmCooler.github.io/images/avatar.png</logo>
-    <icon>https://zjmCooler.github.io/favicon.ico</icon>
+    <logo>https://zjmcooler.github.io/images/avatar.png</logo>
+    <icon>https://zjmcooler.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, ZjiM</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://zjmCooler.github.io/post/hello-gridea/</id>
-        <link href="https://zjmCooler.github.io/post/hello-gridea/">
+        <id>https://zjmcooler.github.io/post/hello-gridea/</id>
+        <link href="https://zjmcooler.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<!-- more -->
